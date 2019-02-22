@@ -1,0 +1,582 @@
+@import url(./base.css);
+.topbar{
+    height: 40px;
+    background: #333333;
+}
+.content{
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+}
+.barNav{
+    width:677px ;
+    height:100%;
+    float: left;
+    color: #b0b0b0;
+    line-height: 40px;
+}
+.barNav a,.barInfo a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.barNav a:hover,.barInfo a:hover{
+    color: #ffffff;
+}
+.barCart{
+    width: 120px;
+    height:100% ;
+    float: right;
+    color: #b0b0b0;
+    font-size: 12px;
+    background: #424242;
+    line-height: 40px;
+    text-align: center;
+}
+.barCart a{
+    color: #b0b0b0;
+}
+.barCart a:hover{
+    color: #ff6700;
+}
+.barInfo{
+    float: right;
+    width:142px;
+    height: 100%;
+    color: #b0b0b0;
+    padding: 0 10px;
+    line-height: 40px;
+}
+/*topbar*/
+.header{
+    width: 1226px;
+    height: 66px;
+    margin: 0 auto;
+    padding: 22px 0;
+}
+.icon {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    float: left;
+    background: #ff7a32;
+}
+.icon a img{
+    width: 30px;
+    height: 30px;
+    margin-top:12px ;
+    margin-left: 12px;
+}
+.headNav{
+    width: 642px;
+    height: 88px;
+    float: left;
+    padding-left: 178px;
+}
+.headNav a{
+    display: block;
+    width: 64px;
+    height: 88px;
+    float: left;
+    line-height: 88px;
+    text-align: center;
+    font-size: 16px;
+    color: #757575;
+}
+.headNav a:hover{
+    color: #ff6700 ;
+}
+/*header*/
+.banner{
+    height: 460px;
+    position: relative;
+}
+.imgBox{
+    width: 100%;
+    height: 100%;
+}
+.imgBox li,.imgBox li a,.imgBox li a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.imgBox li{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+ul.aslide{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 234px;
+    height: 420px;
+    z-index: 999;
+    background: rgba(0,0,0,0.5);
+    padding: 20px 0;
+}
+.aslideList {
+    width: 234px;
+    height: 42px;
+
+}
+.aslideList a{
+    display: block;
+    color: #ffffff;
+    width: 174px;
+    height: 100%;
+    padding: 0 30px;
+    font-size: 14px;
+    line-height: 42px;
+
+}
+.aslideList a:hover{
+    background: #ff7a32;
+}
+.aslideList a i{
+    float: right;
+}
+.bottonleft p,.bottonright p{
+    width:41px ;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.bottonleft p:hover,.bottonright p:hover{
+    background: rgba(0,0,0,0.5);
+    color: #ffffff;
+}
+.bottonleft p{
+    position: absolute;
+    left: 234px;
+    top:195px ;
+    z-index: 800;
+    color: #b0b0b0;
+}
+.bottonright p{
+    position: absolute;
+    left:1185px;
+    top:195px ;
+    z-index: 801;
+    color: #b0b0b0;
+}
+/*banner*/
+.now{
+    width: 1226px;
+    height: 170px;
+    margin-top: 14px;
+}
+.nowleft{
+    width: 234px;
+    height: 100%;
+    background: #ff7a32;
+}
+.nowleft a{
+    display: block;
+    width: 78px;
+    height: 85px;
+    background: #757575;
+    float:left ;
+    line-height: 85px;
+    text-align: center;
+    font-size: 12px;
+}
+.nowleft a i{
+    display:block ;
+    height: 24px;
+    margin-bottom: 4px;
+    text-align: center;
+    color:rgba(255,255,255,0.5);
+}
+.nowleft a:hover{
+    color:rgba(255,255,255,255);
+}
+.nowleft a:hover i{
+    color:rgba(255,255,255,255);
+}
+.nowright{
+    width: 992px;
+    height: 100%;
+    float: right;
+}
+.nowjpg img{
+    width:316px ;
+    height: 100%;
+    margin-left: 14px;
+    float: left;
+}
+/*now*/
+.buy{
+    width: 1226px;
+    height:394px ;
+}
+.buy1{
+    width: 1226px;
+    height: 56px;
+}
+.wenzi{
+    float: left;
+    font:20px 'Microsoft YaHei UI';
+    font-weight: 200;
+    line-height: 56px;
+}
+.buybotton a{
+    display: block;
+    float: right;
+    width:50px ;
+    height: 26px;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 15px;
+}
+.buybotton a:hover{
+    color: #ff7a32;
+}
+.buy2{
+    height:338px;
+}
+.good li{
+    display: block;
+    width: 234px;
+    height:338px ;
+    background: #16b0bc;
+    margin-right: 14px;
+    float: left;
+    background: rgba(0,0,0,0.02);
+    text-align: center;
+    position: relative;
+}
+.time{
+    width: 100%;
+    font: 21px 'Microsoft YaHei UI';
+    color: #ef3a3b;
+    margin: 20px 0;
+    padding-top: 30px;
+}
+.jieshu{
+    font: 15px 'Microsoft YaHei UI';
+    margin: 20px auto;
+}
+.flashTime{
+    width: 168px;
+    height: 46px;
+    float: bottom;
+    position: absolute;
+    /*bottom:40px;*/
+    right: 33px;
+    margin: 20px auto;
+}
+.box{
+    width:46px ;
+    height: 46px;
+    font: 24px 'Microsoft YaHei UI';
+    float: left;
+    background: #605751;
+    color: #ffffff;
+    line-height: 46px;
+    text-align: center;
+
+}
+.dosh{
+    width:15px ;
+    height: 46px;
+    line-height:46px ;
+    float: left;
+}
+.good li a p{
+    font-size:16px ;
+    color: #333333;
+}
+.good li a div{
+    font-size:12px ;
+    color: #dfdfdf;
+}
+/*buy*/
+.heisha .content{
+    width: 1226px;
+    height: 160px;
+    margin-top: 30px;
+}
+.heisha .content img{
+    width: 1226px;
+    height: 120px;
+}
+/*黑纱手机*/
+.phone{
+    height: 700px;
+    background: #f5f5f5;
+}
+.phoneUp{
+    height: 56px;
+}
+.phoneUp a{
+    display: block;
+    height: 20px;
+    font: 14px 'Microsoft YaHei UI';
+    float: right;
+    margin-top: 18px;
+}
+.phoneUp a i{
+    display:block ;
+    width: 18px;
+    height: 18px;
+    background:#b0b0b0 ;
+    border-radius: 50%;
+    color: #ffffff;
+    float: right;
+    margin-left: 5px;
+}
+.phoneUp a:hover{
+    color: #ff7a32;
+}
+.phoneDown .phoneImg a img{
+    width: 234px;
+    height: 614px;
+    float: left;
+}
+.phoneDown .phoneInfo{
+    width: 234px;
+    height: 300px;
+    background: #ffffff;
+    float: left;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.phoneDown .phoneInfo a img{
+    width: 150px;
+    height: 150px;
+}
+.phoneInfo  a p{
+    font-size:16px ;
+    color: #333333;
+}
+.phoneInfo  a div{
+    font-size:12px ;
+    color: #dfdfdf;
+}
+.new,.reduce{
+    width: 64px;
+    height: 22px;
+    line-height: 22px;
+    font: 12px 'Microsoft YaHei UI';
+    margin: 0 auto;
+    text-align: center;
+}
+.new{
+    background: #83c44e;
+}
+.reduce{
+    background: #e53935;
+}
+.shenglue{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*phone*/
+.side{
+    width: 60px;
+    height: 240px;
+    background: #ffffff;
+    position: fixed;
+    top:300px;
+    right:0px;
+}
+.side a{
+    display: block;
+    width: 50px;
+    height: 60px;
+    border: 1px solid #f5f5f5;
+    font-size: 12px;
+    text-align: center;
+    color:rgba(0,0,0,0.7) ;
+}
+.side a:hover{
+    color: #ff7a32;
+}
+.side a i{
+    display: block;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+/*侧边栏*/
+.miTV{
+    height: 150px;
+    background: #f5f5f5;
+}
+.miTV .content{
+    width: 1226px;
+    height: 160px;
+}
+.miTV .content img{
+    width: 1226px;
+    height: 120px;
+}
+/*小米电视特惠*/
+.jiadian{
+    height: 684px;
+    background: #f5f5f5;
+}
+.jiadianUp{
+    height: 56px;
+    position: relative;
+}
+.wenziyou{
+    height: 26px;
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+.wenziyou a{
+    display: block;
+    height: 26px;
+    font: 14px 'Microsoft YaHei UI';
+    float: right;
+    margin: 0 10px;
+}
+.wenziyou a:hover{
+    color: #ff7a32;
+    border-bottom: #ff7a32;
+}
+.jiadianDown{
+  width: 1226px;
+    height: 644px;
+}
+.jiadianimg a{
+   float: left;
+}
+.jiadianimg a img{
+    width: 234px;
+    height: 300px;
+}
+.jiadianInfo a{
+    display: block;
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #ffffff;
+}
+.jiadianInfo a img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+.jiadianInfo  a p{
+    font-size:16px ;
+    color: #333333;
+}
+.jiadianInfo  a div{
+    font-size:12px ;
+    color: #dfdfdf;
+}
+.top{
+    width: 234px;
+    height: 143px;
+    background: #ffffff;
+    float: left;
+    margin-bottom: 14px;
+    margin-left: 14px;
+}
+.more{
+    width: 234px;
+    height: 143px;
+    background: #ffffff;
+    float: left;
+    margin-left: 14px;
+    padding:20px;
+}
+/*家电*/
+.glasses{
+    height: 150px;
+    background: #f5f5f5;
+}
+.glasses .content{
+    width: 1226px;
+    height: 160px;
+    /*margin-top: 16px;*/
+}
+.glasses .content img{
+    width: 1226px;
+    height: 120px;
+    margin-top: 16px;
+}
+/*日光镜*/
+.zhineng{
+    height: 684px;
+    background: #f5f5f5;
+}
+.zhinengUp{
+    width: 1226px;
+    height: 56px;
+    position: relative;
+}
+.zhinengDown{
+    width: 1226px;
+    height: 644px;
+}
+.zhinengimg a{
+    float: left;
+}
+.zhinengimg a img{
+    width: 234px;
+    height: 300px;
+}
+.zhinengInfo a{
+    display: block;
+    float: left;
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #ffffff;
+}
+.zhinengInfo a img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+.zhinengInfo  a p{
+    font-size:16px ;
+    color: #333333;
+}
+.zhinengInfo  a div{
+    font-size:12px ;
+    color: #dfdfdf;
+}
+.top{
+    width: 234px;
+    height: 143px;
+    background: #ffffff;
+    float: left;
+    margin-bottom: 14px;
+    margin-left: 14px;
+}
+/*智能*/
+.yiti{
+    height: 150px;
+    background: #f5f5f5;
+}
+.yiti .content{
+    width: 1226px;
+    height: 160px;
+    /*margin-top: 16px;*/
+}
+.yiti .content img{
+    width: 1226px;
+    height: 120px;
+    margin-top: 16px;
+}
+/*一体机*/
+.dapei{
+    height: 684px;
+    background: #f5f5f5;
+}
+/*搭配*/
